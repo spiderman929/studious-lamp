@@ -2,3 +2,12 @@
 #logo {
 background-color: rgb(255,71,71);
 }
+#selectors {
+color: black;
+font-size: 1.25rem;
+font: Times;
+}
+p {
+font-size: 1.5rem;
+font: Times;
+}
