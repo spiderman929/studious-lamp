@@ -7,6 +7,11 @@ color: black;
 font-size: 1.25rem;
 font: Times;
 }
+#desc {
+margin: 10;
+Font-style: italic;
+font-size: 1rem;
+}
 p {
 font-size: 1.5rem;
 font: Times;
