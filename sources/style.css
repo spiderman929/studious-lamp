@@ -1,9 +1,8 @@
-*{font-family: 'Maven Pro', sans-serif;}
+*{font-family: 'Maven Pro', sans-serif; color: #E9DDD4;}
 #logo {
-background-color: rgb(255,71,71);
+background-color: #BA0F30;
 }
 #selectors {
-color: black;
 font-size: 1.25rem;
 font: Times;
 }
@@ -11,6 +10,9 @@ font: Times;
 margin: 10;
 Font-style: italic;
 font-size: 1rem;
+}
+body{
+background-color: #2F2440;
 }
 p {
 font-size: 1.5rem;
