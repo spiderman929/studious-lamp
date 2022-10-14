@@ -1,16 +1,11 @@
 *{font-family: 'Roboto', sans-serif; color: #E9DDD4;}
 #logo {
 background-color: #BA0F30;
+position: fixed;
+z-index: 1;
 }
-#selectors {
-color: #E9DDD4;
-padding: 5px;
-font-size: 1.25rem;
-font: Times;
-transition-duration: .3s
-}
-#selectors:hover {
-color: #BA0F30;
+#videos{
+ padding: 150px 10px 10px 10px;
 }
 #desc {
 padding: 10px 20px 20px 5px;
@@ -30,10 +25,24 @@ padding: 10px 10px 20px 5px;
 font-size: 1.5rem;
 font: Times;
 }
+li {
+color: #E9DDD4;
+padding: 3px;
+font-size: 1.25rem;
+font: Times;
+transition-duration: .3s
+}
+li:hover {
+	color: #BA0F30;
+}
 a {
 text-decoration: none;
 transition-duration: .3s
 }
 a:hover {
 color: #BA0F30;
+}
+video{
+ width: 30%;
+ height: auto;
 }
