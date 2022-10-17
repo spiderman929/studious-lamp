@@ -4,7 +4,7 @@ background-color: #BA0F30;
 position: fixed;
 z-index: 1;
 }
-#videos{
+#list{
  padding: 150px 10px 10px 10px;
 }
 #desc {
@@ -42,7 +42,9 @@ transition-duration: .3s
 a:hover {
 color: #BA0F30;
 }
-video{
- width: 30%;
- height: auto;
+
+#videos {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
